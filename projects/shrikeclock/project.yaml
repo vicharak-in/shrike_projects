@@ -1,0 +1,16 @@
+name: shrikeclock
+author: Kritish Mohapatra
+github: kritishmohapatra
+boards:
+  - shrike-fi
+uses_fpga: false
+tags:
+  - clock
+  - ntp
+  - micropython
+  - 7-segment
+  - wifi
+description: >
+  NTP-synced digital clock on Shrike-Fi (ESP32-S3) using a common-anode
+  6-digit 7-segment display (14-pin, multiplexed). WiFi + NTP time sync,
+  IST timezone, boot animation, and auto-toggle between time and date.
