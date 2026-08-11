@@ -1,0 +1,16 @@
+name: esp_now_wireless_led_control
+author: Kritish Mohapatra
+github: kritishmohapatra
+boards:
+  - shrike-fi
+uses_fpga: false
+tags:
+  - esp-now
+  - wireless
+  - micropython
+  - oled
+  - led-control
+description: >
+  Wireless LED control using ESP-NOW between an ESP32 DevKit (sender) and a
+  Shrike-Fi (ESP32-S3, receiver). Button presses on the sender toggle LEDs
+  on the ShrikeFi, with real-time state shown on an SSD1306 OLED display.
